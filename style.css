@@ -681,6 +681,12 @@ header .cont_head {
     .logo img{
         width: 60px;
     }
+    .nav_toggle.active:before{
+        visibility: hidden;
+    }
+    .nav_overlay{
+        visibility: hidden;
+    }
 }
 @media (max-width:710px){
     .logo h1{
