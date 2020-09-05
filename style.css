@@ -666,6 +666,12 @@ header .cont_head {
     .nav_toggle{
         visibility: hidden;
     }
+    .nav_overlay{
+        visibility: hidden;
+    }
+    .nav_menu{
+        visibility: hidden;
+    }
 }
 @media (max-width:675px){
     .main ul li{
@@ -680,12 +686,6 @@ header .cont_head {
     }
     .logo img{
         width: 60px;
-    }
-    .nav_toggle.active:before{
-        visibility: hidden;
-    }
-    .nav_overlay{
-        visibility: hidden;
     }
 }
 @media (max-width:710px){
