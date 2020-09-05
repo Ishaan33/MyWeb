@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cont_head">
+        <h1>Subscribe to our newsletter to get latest trends & news</h1><br><br>
+        <div class="cont_div">
+        <b><input type="text" name="Name" placeholder="Name" class="cont_in"></b>
+        <b><input type="email" name="Email" placeholder="Email" class="cont_in"></b>
+        <b><input type="Submit" value="Subscribe" id="cont_btn" class="cont_in"></b>
+        </div>
+        <section id="cont_icon">
+            <a href="#"><img src="images/call.png" alt="call" class="icon1"></a><br>
+            <h3 class="icon1text">GIVE US A CALL</h3>
+            <a href=""><img src="images/message.png" alt="message" class="icon2"></a><br>
+            <h3 class="icon2text" >SEND US A MESSAGE</h3>
+            <a href=""><img src="images/visit.png" alt="call" class="icon3"></a><br>
+            <h3 class="icon3text">VISIT US</h3>
+                
+        </section>
+    </header>
+    <footer>
+        <div class="con_toggle"></div>
+        <div class="con_overlay"></div>
+        <div class="con_menu">
+            <ul>
+                <li><a href="#">62837XXXXX</a></li>
+                <li><a href="#"> contact@codeIT.com</a></li>
+                <li><a href="#"> 221-B Baker Street, UK</a></li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.con_toggle').click(function(){
+                    $('.con_toggle').toggleClass('active')
+                    $('.con_overlay').toggleClass('active')
+                    $('.con_menu').toggleClass('active')
+                })
+            })
+        </script>
+        <div class="foot">
+            <div class="content">
+                <ul class="left">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Subscribe to newsletter</a></li>
+                </ul>
+                <ul class="right">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Email</a></li>
+                    <h4><li id="index_disc">2020&copy; Code.IT</li></h4>
+                </ul>
+            </div>    
+        </div>
+    </footer>
+</body>
+</html>

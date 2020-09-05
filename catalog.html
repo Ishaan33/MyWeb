@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <footer class="cat_head">
+        <section class="cat_main">
+            
+        </section>
+        <div class="cat_toggle"></div>
+        <div class="cat_overlay"></div>
+        <div class="cat_menu">
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">Django</a></li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.cat_toggle').click(function(){
+                    $('.cat_toggle').toggleClass('active')
+                    $('.cat_overlay').toggleClass('active')
+                    $('.cat_menu').toggleClass('active')
+                })    
+            })
+        </script>
+    </footer>
+</body>
+</html>
